@@ -53,7 +53,8 @@ const Hero = () => {
 					<img
 						src='/images/pic.JPEG'
 						alt="Profile image"
-						className="w-125 h-125 scale-110 rounded-full object-cover shadow-lg
+						className="w-48 h-48 sm:w-64 sm:h-64 md:w-125 md:h-125
+						scale-110 rounded-full object-cover shadow-lg
 						transform transition-transform duration-500 hover:scale-115"
 					/>
 				</div>
