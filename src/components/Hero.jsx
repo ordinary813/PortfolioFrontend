@@ -1,5 +1,4 @@
 import { TypeAnimation } from 'react-type-animation';
-import img from '../assets/pic.JPEG';
 
 const Hero = () => {
 	return (
@@ -52,8 +51,8 @@ const Hero = () => {
 				{/* Image */}
 				<div className="flex justify-end">
 					<img
-						src={img}
-						alt="Your profile"
+						src='../../public/images/pic.JPEG'
+						alt="Profile image"
 						className="w-125 h-125 scale-110 rounded-full object-cover shadow-lg
 						transform transition-transform duration-500 hover:scale-115"
 					/>

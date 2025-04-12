@@ -10,7 +10,7 @@ const About = () => {
         {/* Left Side: Image */}
         <div className="flex justify-center">
           <img
-            src="src/assets/pic2.JPEG" // Update with your image source
+            src="../../public/images/pic2.JPEG"
             alt="Your profile"
             className="w-125 h-125 scale-110 rounded-4xl object-cover shadow-lg transform transition-transform duration-500 hover:scale-115"
           />
