@@ -12,7 +12,7 @@ export default defineConfig({
     port: 3120,
     proxy: {
       '/api': {
-        target: 'https://portfoliobackend-nnue.onrender.com',
+        target: 'https://portfoliobackend-nnue.onrender.com:5000',
         changeOrigin: true,
         secure: false,
       },
