@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import API_BASE_URL from './api';
+import API_BASE_URL from './api.js';
 
 const TokenGate = ({ onUnlock }) => {
   const [token, setToken] = useState('');
