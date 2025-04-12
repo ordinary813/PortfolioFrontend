@@ -16,7 +16,7 @@ const App = () => {
 		const token = searchParams.get('token');
 
 		if (token) {
-			fetch('/api/validate-token', {
+			fetch(`${API_BASE_URL}/api/validate-token`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ token }),

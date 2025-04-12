@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('/api/messages', {
+      const response = await axios.post(`${API_BASE_URL}/api/messages`, {
         name: formData.name,
         email: formData.email,
         message: formData.message,

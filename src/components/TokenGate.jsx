@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import API_BASE_URL from './api';
 
 const TokenGate = ({ onUnlock }) => {
   const [token, setToken] = useState('');
@@ -8,7 +9,7 @@ const TokenGate = ({ onUnlock }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/validate-token', { token });
+      const response = await axios.post(`${API_BASE_URL}/api/validate-token`, { token });
       if (response.data.valid) {
         onUnlock();
         setError('');
