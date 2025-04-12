@@ -51,7 +51,7 @@ const Hero = () => {
 				{/* Image */}
 				<div className="flex justify-end">
 					<img
-						src='../../public/images/pic.JPEG'
+						src='/images/pic.JPEG'
 						alt="Profile image"
 						className="w-125 h-125 scale-110 rounded-full object-cover shadow-lg
 						transform transition-transform duration-500 hover:scale-115"
